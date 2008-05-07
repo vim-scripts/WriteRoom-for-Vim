@@ -1,0 +1,28 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2231
+
+As you probably know, WriteRoom (http://hogbaysoftware.com/products/writeroom) is a very minimalistic text editor, focusing on a clean appearance of just the edited document. This script creates &#039padding&#039 around the editing window in gVim and hides the vertical splits and other items to obtain this same effect, while keeping all of Vim&#039s extensive features available. 
+
+Using the file is simple, just issue a gvim -S ~/.vim/writeroom/writeroom.vim {filename} at the command line to open the file in a very clean, minimalist setup. Perfect for ADD-ers like myself ;-)
+
+This file adds the following:
+
+Commands:
+=========
+
+WriteRoomBG {color} ; sets the background color
+WriteRoomFG {color} ; sets the foreground color
+WriteRoomFilename {color} ; sets the color for the filename just below the editing window
+WriteRoomNonText {color} ; sets the color for non-text characters
+
+Functions:
+==========
+
+UpdateScreen() ; updates the screen size and colors
+
+Mappings:
+=========
+
+<F5> toggles visibility of EOL, TAB and tilde lines
+
+
+

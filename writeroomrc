@@ -1,0 +1,9 @@
+let foreground="#808080"
+let background="#ede9e3"
+let nontext="SkyBlue"
+let filename="#d0d0d0"
+
+let width=80
+let height=40
+
+set listchars=eol:¶,tab:»·
